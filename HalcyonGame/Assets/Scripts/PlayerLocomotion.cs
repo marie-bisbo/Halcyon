@@ -44,6 +44,7 @@ namespace Main
             moveDirection = cameraObject.forward * inputHandler.vertical;
             moveDirection += cameraObject.right * inputHandler.horizontal;
             moveDirection.Normalize();
+            moveDirection.y = 0;
 
             moveDirection *= movementSpeed;
 
