@@ -105,7 +105,7 @@ namespace Main
 
                 if(inputHandler.moveAmount > 0)
                 {
-                    animatorHandler.PlayerTargetAnimation("Rolling", true);
+                    animatorHandler.PlayerTargetAnimation("Roll", true);
                     moveDirection.y = 0;
                     Quaternion rollRotation = Quaternion.LookRotation(moveDirection);
                     myTransform.rotation = rollRotation;
