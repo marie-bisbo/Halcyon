@@ -13,7 +13,9 @@ namespace Main
         public float mouseY;
 
         public bool b_Input;
+
         public bool rollFlag;
+        public bool isInteracting;
 
         PlayerControls inputActions;
         CameraHandler cameraHandler;
